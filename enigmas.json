@@ -1,0 +1,286 @@
+[
+  {
+    "to-level"   : 1,
+    "comment"    : "They should just read what's going on, this is clearly easy",
+    "question"   : "You wander on a deserted beach 🏖, when you hear a voice, asking you a random question. How can you answer it ?",
+    "hints"      : [
+      "You can learn more about the game in the #how-does-this-works channel",
+      "Try to learn more about the game",
+      "How Does This Works ?",
+      "Starting on the basics, how do I use the answer command ?"
+    ],
+    "answers"    : [
+      "hello!"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Congratulations on your first enigma, says the voice! The game starts easy, but will become harder the more you go on. Remember to read everything, and good luck!"
+  },
+  {
+    "to-level"   : 2,
+    "comment"    : "First real enigma",
+    "question"   : "You see that thing on your left. That's the sidebar. You'll need the password written on the server logo to continue your quest.",
+    "hints"      : [
+      "You'll probably need to zoom in",
+      "Are you sure you need a hint for this? Look for some text on the logo...",
+      "You probably need a bigger version of the logo",
+      "Are you sure that the letters are written in the right order"
+    ],
+    "answers"    : [
+      "Hello World"
+    ],
+    "flags"      : [],
+    "win-message": "The voice is happy with the answer you gave, and let you continue walking."
+  },
+  {
+    "to-level"   : 3,
+    "comment"    : "FA QR code enigma",
+    "question"   : "A strange drawing appears in the sky. Can you decipher it? https://api-d.com/snaps/event-HELPIMTRAPPEDINAQRCODEFACTORY.png",
+    "hints"      : [
+      "You'll need to resize some parts of the image",
+      "You'll have to move some parts of the image"
+    ],
+    "answers"    : [
+      "duckling"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "When you say your answer, the sky become blue and shiny again. You wonder what you have fallen into."
+  },
+  {
+    "to-level"   : 4,
+    "comment"    : "(olpouin) Images difference (answer image : https://cdn.discordapp.com/attachments/215592039679524864/449708379477377044/unknown.png)",
+    "question"   : "You'll need a map to leave the beach. Hopefully, you find a bottle with two pieces of paper inside. It's not a map, but you decide to take a look at it. https://api-d.com/snaps/event-first-image.png & https://api-d.com/snaps/event-second-image.png",
+    "hints"      : [
+      "You'll need to find a way to see the differences between the images",
+      "What changed ?",
+      "There is probably a message hidden on the images"
+    ],
+    "answers"    : [
+      "colored duckies",
+      "colored duckies!"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "How do you feel ? `Different`?"
+  },
+  {
+    "to-level"   : 5,
+    "comment"    : "(olpouin) Images pixel diff (answer image : https://cdn.discordapp.com/attachments/215592039679524864/449712889146900481/unknown.png)",
+    "question"   : "A young child is laying on the beach. You are about to approach him and ask for directions, when he gets up, and says \"Look! My drawing! Isn't it beautifuuuuuuuuuuuuul?\" https://api-d.com/snaps/event-drawing.png",
+    "hints"      : [
+      "Is this the same as the previous enigma ?",
+      "Maybe you should remove something"
+    ],
+    "answers"    : [
+      "sky duck",
+      "sky ducks"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "How do you feel ? Still `Different` I see, just in a different way ;)? Well, at least, the boy did gave you something looking like a map."
+  },
+  {
+    "to-level"   : 6,
+    "comment"    : "Duck road, somewhere in the US :)",
+    "question"   : "There is a strange thing written on the map the boy gave you. Maybe you could tell me what is is exactly: 🛬 36.1748548,-75.756214",
+    "hints"      : [
+      "Google it"
+    ],
+    "answers"    : [
+      "duck road",
+      "duck rd"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "That's where I want to go when I'm older."
+  },
+  {
+    "to-level"   : 7,
+    "comment"    : "Emoji name",
+    "question"   : "You start going into a nearby forest, when you feel an invisible wall. Either you got to the end of the map, or you'll just need a code to continue.",
+    "hints"      : [
+      "It's somewhere on the server",
+      "You should be able to find the answer on the server"
+    ],
+    "answers"    : [
+      "enigma"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Good catch! You are getting the hang of it."
+  },
+  {
+    "to-level"   : 8,
+    "comment"    : "Zero width spaces hidden in the text",
+    "question"   : "Still in the forest, you can see, engraved on a tree, the following words : \"This is REALLY easy : The answer is 'the m​other of all ducks will kill ​everyone on the plan​et right​ now, beware​!' \"",
+    "hints"      : [
+      "It's not that easy to copy/paste",
+      "Trying to copy/paste the answer, are you"
+    ],
+    "answers"    : [
+      "the mother of all ducks will kill everyone on the planet right now, beware!"
+    ],
+    "flags"      : [
+    ],
+    "win-message": "Zero width spaces are fun :)"
+  },
+  {
+    "to-level"   : 9,
+    "comment"    : "The name of the channel on the DuckHunt support server",
+    "question"   : "You stumble upon another enigma you'll have to search the answer for apparently. This time, head to the DH support server, and give me the answer. Good luck!'",
+    "hints"      : [
+      "Look, some channels",
+      "Did you try to see if the nonsense had some meaning"
+    ],
+    "answers"    : [
+      "this-is-totally-not-an-answer-what-are-you-looking-for-here-i-dont-know"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "So, in fact, this was an answer :o"
+  },
+  {
+    "to-level"   : 10,
+    "comment"    : "Topic of #announcements",
+    "question"   : "Apparently, there is a security guard in this forest. When you try to leave, he ask for the password.",
+    "hints"      : [
+      "No hints this time, you'll have to figure it out for yourself. Good luck!"
+    ],
+    "answers"    : [
+      "mirage"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Announcing... You, in channel 10!"
+  },
+  {
+    "to-level"   : 11,
+    "comment"    : "Second message from me in #general (duckhunt)",
+    "question"   : "With the correct password, the guard gives you an invitation for an event. It's scheduled for 22/06/2016 (DD/MM/YYYY), and you'll need another password to attend. Good luck.",
+    "hints"      : [
+      "Look for the password on the DuckHunt Server",
+      "Searching will probably be helpful"
+    ],
+    "answers"    : [
+      "whataboutthestars"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Back to the future! Welcome to the DuckHunt server party for time travelers."
+  },
+  {
+    "to-level"   : 12,
+    "comment"    : "Levels names on DuckHunt https://github.com/DuckHunt-discord/DHV3/blob/master/cogs/helpers/config.py#L449",
+    "question"   : "Some drunk guy at the party asks, what's level 30 already ?",
+    "hints"      : [
+      "Maybe we are not talking about the enigma levels",
+      "There is probably a list of all the levels somewhere",
+      "I need the english name"
+    ],
+    "answers"    : [
+      "ducks terror"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Thanks! The guy buys you a drink."
+  },
+  {
+    "to-level"   : 13,
+    "comment"    : "(Wizzz) Find the 13 ducks (five adult ducks and 8 Babies)",
+    "question"   : "How many ducks are there in this picture on the wall of the bar? https://api-d.com/snaps/event-search.png **format your answer like this : X (normal) + X (babies) = XX**",
+    "hints"      : [
+      "You must have missed one"
+    ],
+    "answers"    : [
+      "8 (normal) + 8 (babies) = 16",
+      "8 + 8 = 16",
+      "8+8=16"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "That's the code to get a free lemonade at the bar, it seems."
+  },
+  {
+    "to-level"   : 14,
+    "comment"    : "(Wizzz)",
+    "question"   : "At the end of the story a old guy told you, a cat was given €18, a spider was given €36, a bee was given €27. Based off of this information, how much money would be given to a duck ?",
+    "hints"      : [
+      "Maybe there is a multiplicator you need to find",
+      "A duck has one head, two legs, and lots of feathers."
+    ],
+    "answers"    : [
+      "€9",
+      "9",
+      "9 €",
+      "9€"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "€4.50 per leg, alright, that was easy :) Two more enigmas to win, because I'm kinda out of ideas..."
+  },
+  {
+    "to-level"   : 15,
+    "comment"    : "Hidden on the neck",
+    "question"   : "What does the DUCK says? https://api-d.com/snaps/event-duck.jpg",
+    "hints"      : [
+      "What does a duck says ?",
+      "You play DuckHunt, right ?",
+      "Are you the kinda guy to read the hints ? Bad news for you, this one ain't one :c"
+    ],
+    "answers"    : [
+      "quaaack",
+      "quaack"
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "COIN! Last enigma before the win, keep going"
+  },
+  {
+    "to-level"   : "END",
+    "comment"    : "This is bound to be the hardest one - The answer is in the ducks messages",
+    "question"   : "Everything is in the channel",
+    "hints"      : [
+      "!pan",
+      "!bang",
+      "!reload"
+    ],
+    "answers"    : [
+      "I Really Wanna See You Now"
+    ],
+    "flags"      : [
+    ],
+    "win-message": "Congratulations. If you are the first person to see this, you won. Great job!"
+  },
+  {
+    "to-level"   : "NOWHERE",
+    "comment"    : "Finished already",
+    "question"   : "It looks like you won. Stop trying.",
+    "hints"      : [
+      "Congratulations I guess",
+      "Do something else",
+      "YOU WON"
+    ],
+    "answers"    : [
+      "- - - - - - - * No Answer * - - - - - - -",
+      "The answers can't match because of the Capital letters and the NoCase flag "
+    ],
+    "flags"      : [
+      "no-case"
+    ],
+    "win-message": "Haha! Sppopy cheater looking in the answers file... "
+  }
+]
